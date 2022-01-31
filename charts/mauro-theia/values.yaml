@@ -8,11 +8,11 @@ image:
   repository: rishikoy/theiaide-full
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "1.0.0-SNAPSHOT"
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "1.0.0-SNAPSHOT"
+fullnameOverride: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
