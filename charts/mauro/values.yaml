@@ -47,7 +47,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: http://testemauro.sebrae.jac.bsb.br/
+    - host: testemauro.sebrae.jac.bsb.br
       paths:
         - path: /
           pathType: ImplementationSpecific
