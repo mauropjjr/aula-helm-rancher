@@ -5,7 +5,9 @@ metadata:
   labels:
     {{- include "mauro.labels" . | nindent 4 }}
   annotations:
-    "helm.sh/hook": test
+    "helm.sh/hook": test-success
+    "helm.sh/hook-delete-policy": test-success
+
 spec:
   containers:
     - name: wget
